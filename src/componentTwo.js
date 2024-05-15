@@ -7,7 +7,7 @@ export function componentTwo() {
             <div class="grid grid-rows-1 md:grid-cols-3 gap-5">
                 ${data.images.map(image => `<div class="pb-6" data-aos="fade-up" data-aos-duration="1000"  delay="600" >
                         <a href="#" id=${`id-component-two-${image.id}`}>
-                            <img class="border-b-[5px] border-[#CD1430]"  src=${`img/component-02/${image.img.md}`} alt="Elva dressed as a fairy" />
+                            <img class="border-b-[5px] border-[#CD1430]"  src=${`img/component-02/${image.img.md}`} alt=${image.title} />
                         </a>
                         <div class="mt-7">
                             <h4 class="text-lg font-bold mb-2">${image.title}</h4>

@@ -9,7 +9,7 @@ export function componentOne() {
                     if (index === 0)
                         return `<div  data-aos-duration="500"  data-aos="flip-right" data-aos-delay="300">
                                 <a href="#" id=${`id-component-one-${image.id}`}>
-                                    <img  class="w-full" src=${`img/component-01/${image.img.md}`} alt="Elva dressed as a fairy" />
+                                    <img  class="w-full" src=${`img/component-01/${image.img.md}`} alt=${image.title} />
                                 </a>
                             </div>
                         `
@@ -20,7 +20,7 @@ export function componentOne() {
                         if (index !== 0)
                             return `<div  data-aos-duration="1000"  data-aos="flip-right" data-aos-delay="600">
                                     <a href="#" id=${`id-component-one-${image.id}`}>
-                                        <img class="w-full" src=${`img/component-01/${image.img.md}`} alt="Elva dressed as a fairy" />
+                                        <img class="w-full" src=${`img/component-01/${image.img.md}`} alt=${image.title} />
                                     </a>
                                 </div>
                             `
