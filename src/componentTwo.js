@@ -3,9 +3,9 @@ import data from "./data/componentTwo.json";
 export function componentTwo() {
   document.querySelector("#id-component-two").innerHTML = `
         <section  class="max-w-7xl mx-auto py-24 md:py-48 px-8 text-white">
-            <h3 class="text-center font-light text-5xl py-16">${data.title}</h3>
+            <h3 data-aos="fade-down" data-aos-duration="1000" delay="300" class="text-center font-light text-5xl py-16">${data.title}</h3>
             <div class="grid grid-rows-1 md:grid-cols-3 gap-5">
-                ${data.images.map(image => `<div class="pb-6">
+                ${data.images.map(image => `<div class="pb-6" data-aos="fade-up" data-aos-duration="1000"  delay="600" >
                         <a href="#" id=${`id-component-two-${image.id}`}>
                             <img class="border-b-[5px] border-[#CD1430]"  src=${`img/component-02/${image.img.md}`} alt="Elva dressed as a fairy" />
                         </a>

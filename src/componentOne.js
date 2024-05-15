@@ -7,7 +7,7 @@ export function componentOne() {
             <div class="grid rid-cols-1 lg:grid-cols-3 lg:auto-cols-max  gap-5">
                 ${data.images.map((image, index) => {
                     if (index === 0)
-                        return `<div>
+                        return `<div  data-aos-duration="500"  data-aos="flip-right" data-aos-delay="300">
                                 <a href="#" id=${`id-component-one-${image.id}`}>
                                     <img  class="w-full" src=${`img/component-01/${image.img.md}`} alt="Elva dressed as a fairy" />
                                 </a>
@@ -18,7 +18,7 @@ export function componentOne() {
                 <div class="grid grid-rows-2 gap-5">
                     ${data.images.map((image, index) => {
                         if (index !== 0)
-                            return `<div class=" ">
+                            return `<div  data-aos-duration="1000"  data-aos="flip-right" data-aos-delay="600">
                                     <a href="#" id=${`id-component-one-${image.id}`}>
                                         <img class="w-full" src=${`img/component-01/${image.img.md}`} alt="Elva dressed as a fairy" />
                                     </a>
@@ -26,7 +26,7 @@ export function componentOne() {
                             `
                     }).join('')}
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-mirror="true"  data-aos-duration="500" data-aos-delay="1200">
                     <div class="pb-10 text-white" >
                         <h2 class="text-2xl ">${data.title}</h2>
                         <hr class="h-px my-4 bg-gray-200 border-1 dark:bg-gray-700">
