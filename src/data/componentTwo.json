@@ -1,0 +1,32 @@
+{
+    "title": "ALL THE LATEST FROM AEG",
+    "images": [
+        {
+            "id": "0001",
+            "title": "Summer Lunch Menu By Mark Best",
+            "descriptions": "AEG ambassador Mark Best's summer eats are guaranteed to help you make the most of the warmer weather and entertaining at home.",
+            "img": {
+                "lg": "Image-01.jpg",
+                "md": "Image-01@2x.jpg"
+            }
+        },
+        {
+            "id": "0002",
+            "title": "A Traditional Christmas Eve, Mark Best Style",
+            "descriptions": "One of Australia's best chefs and AEG ambassador, Mark Best, shares his favourite Christmas Eve Menu which is sire to impress your guests.",
+            "img": {
+                "lg": "Image-02.jpg",
+                "md": "Image-02@2x.jpg"
+            }
+        },
+        {
+            "id": "0003",
+            "title": "Taking Taste Further",
+            "descriptions": "This exclusive cookbook gives you all the know-how you need. We've designed it to make sure you get the most of our products - and best out of your food.",
+            "img": {
+                "lg": "Image-03.jpg",
+                "md": "Image-03@2x.jpg"
+            }
+        }
+    ]
+}
